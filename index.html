@@ -1,0 +1,51 @@
+<html>
+    <body>
+        <input
+            data-event='form'
+            data-actor='user'
+            data-action='focusout'
+            data-props='{"formName": "contato-unidade", "field-name": "cidade"}'
+            data-value
+        />
+
+        <input
+            data-event='form'
+            data-actor='user'
+            data-action='focusout'
+            data-props='{"formName": "contato-unidade", "field-name": "unidade"}'
+            data-value
+        />
+
+        <a
+            data-event='interaction'
+            data-actor='user'
+            data-action='link-click'
+            data-content='Teste'
+            data-label='Label do link'
+            href='#'
+        >
+            Link
+        </a>
+
+        <button
+            data-event='form'
+            data-actor='user'
+            data-action='submit'
+            data-props='{"formName": "contato-unidade", "status": "intent"}'
+        >
+            submit
+        </button>
+
+        <button
+            data-event='form'
+            data-actor='user'
+            data-action='submit'
+            data-props='{"formName": "newsletter", "status": "intent"}'
+        >
+            submit
+        </button>
+
+    </body>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="data.js"></script>
+</html>
