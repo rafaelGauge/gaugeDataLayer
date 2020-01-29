@@ -43,8 +43,6 @@ $(document).ready(function(){
             interactionType: interaction,
             props: props,
         })
-
-        console.log(dataLayer);
     }
 
     function thisSubmit(element, event, actor, interaction, props){
