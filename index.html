@@ -4,17 +4,31 @@
             data-event='form'
             data-actor='user'
             data-action='focusout'
-            data-props='{"formName": "contato-unidade", "field-name": "cidade"}'
+            data-props='{"formName": "contato-unidade", "field-name": "unidade"}'
             data-value
         />
 
-        <input
+        <textarea
+            data-event='form'
+            data-actor='user'
+            data-action='focusout'
+            data-props='{"formName": "contato-unidade", "field-name": "texto"}'
+            data-value
+        ></textarea>
+
+        <select
             data-event='form'
             data-actor='user'
             data-action='focusout'
             data-props='{"formName": "contato-unidade", "field-name": "unidade"}'
             data-value
-        />
+        >
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
 
         <a
             data-event='interaction'
