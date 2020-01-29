@@ -15,22 +15,11 @@ data-props = propriedades do evento (FORMATO JSON, ex: '{"formName": "contato-un
 data-value = passar atributo vazio caso seja preciso passar o valor do campo para o datalayer.
 
 ### Exemplo de Campos de formulário
-`code`
-    <input
-        data-event='form'
-        data-actor='user'
-        data-action='focusout'
-        data-props='{"formName": "contato-unidade", "field-name": "cidade"}'
-        data-value
-    />
+``
+    <input data-event='form' data-actor='user' data-action='focusout' data-props='{"formName": "contato-unidade", "field-name": "cidade"}' data-value />
 
-    <select
-        data-event='form'
-        data-actor='user'
-        data-action='focusout'
-        data-props='{"formName": "contato-unidade", "field-name": "unidade"}'
-        data-value
-    >
+    <select data-event='form' data-actor='user' data-action='focusout' data-props='{"formName": "contato-unidade", "field-name": "unidade"}'
+data-value >
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
