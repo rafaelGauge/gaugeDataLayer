@@ -79,5 +79,5 @@ Informado através do atributo _data-action_.
 **submit** = Datalayer disparado na submissão do formulário.  
 **fill** = Datalayer disparado a cada mudança de valor de um campo.  
 **focusout** = Datalayer disparado na troca do foco do campo.  
-**click** = Datalayer disparado no click de algum link.
+**link-click** = Datalayer disparado no click de algum link.
 
